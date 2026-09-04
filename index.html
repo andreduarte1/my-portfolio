@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+
+        <nav class="nav1">
+            <div class="heading">
+                <div class="pic">
+                    <img src="peter.png" alt="imaage">
+                </div>
+                <span>A.M STACK</span>
+            </div>
+
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+            <ul id="nav-links">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#projects">project</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+
+        <section class="part1">
+
+            <div class="intro">
+                <p>Hello I'm </p>
+                <h1>Peter</h1>
+                <h2>A.M STACK</h2>
+
+                <p>
+                    I'm a Computer Science student and aspiring web developer
+                    <br> who enjoys building websites and web applications. <br>
+                    I am a frontend developer with a passion for creating
+                    beautiful and functional user interfaces.
+                </p>
+               <a href="#projects" class="work-btn">View My Work</a>
+            </div>
+
+            <div class="pic2">
+                <img src="peter2.jpeg" alt="image2">
+
+            </div>
+        </section>
+
+        <section class="about" id="About">
+
+            <div class="about-text">
+                <p class="section-title">ABOUT ME</p>
+
+                <h1>Get To Know Me</h1>
+
+                <p>
+                    I'm Peter, a Computer Science student and frontend developer
+                    passionate about creating beautiful and functional websites.
+                </p>
+
+                <p>
+                    I enjoy learning new technologies, solving problems and
+                    turning ideas into real web applications.
+                </p>
+
+            </div>
+
+        </section>
+
+        <section class="skills" id="skills">
+
+            <div class="skills-heading">
+                <p>MY SKILLS</p>
+                <h1>What I Can Do</h1>
+            </div>
+
+            <div class="skills-container">
+
+                <div class="skill-card">
+                    <h2>HTML</h2>
+                    <p>
+                        I use HTML to create the structure and content
+                        of modern websites.
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <h2>CSS</h2>
+                    <p>
+                        I use CSS to design responsive, attractive and
+                        user-friendly interfaces.
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <h2>JavaScript</h2>
+                    <p>
+                        I use JavaScript to add functionality and
+                        interactivity to websites.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="projects" id="projects">
+
+            <div class="projects-heading">
+                <p>MY PROJECTS</p>
+                <h1>What I've Built</h1>
+            </div>
+
+            <div class="projects-container">
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project1.png" alt="Calculator project">
+                    </div>
+
+                    <div class="project-info">
+                        <h2>Calculator</h2>
+                        <p>
+                            A simple and functional calculator built with
+                            HTML, CSS and JavaScript.
+                        </p>
+
+                        <a href="#">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project2.png" alt="Portfolio project">
+                    </div>
+
+                    <div class="project-info">
+                        <h2>Personal Portfolio</h2>
+                        <p>
+                            A responsive personal portfolio website designed
+                            to showcase my skills and projects.
+                        </p>
+
+                        <a href="#">View Project</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="contact" id="contact">
+
+            <div class="contact-heading">
+                <p>CONTACT ME</p>
+                <h1>Let's Work Together</h1>
+                <p>
+                    Have a project or idea in mind? Feel free to get in touch
+                    with me.
+                </p>
+            </div>
+
+            <div class="contact-container">
+
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+
+                    <p>Email: olaniranpeter66@gmail.com</p>
+                    <p>Phone: +234 907 962 4397</p>
+                    <p>Location: Nigeria</p>
+                </div>
+
+                 <form class="contact-form" action="https://formspree.io/f/xzebvkpl" method="POST">
+
+    <input type="text" name="name" placeholder="Your Name" required>
+
+    <input type="email" name="email" placeholder="Your Email" required>
+
+    <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+
+    <button type="submit">Send Message</button>
+
+</form>
+            </div>
+
+        </section>
+
+        <footer class="footer">
+            <p>© 2026 AM STACK. All Rights Reserved.</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
