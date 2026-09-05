@@ -437,9 +437,65 @@ body {
 html{
     scroll-behavior: smooth;
 }
+.whatsapp {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+
+    width: 60px;
+    height: 60px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: #25D366;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
+    cursor: pointer;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+
+    z-index: 1000;
+
+    transition: 0.3s ease;
+}
+
+.whatsapp a {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatsapp img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+}
+
+.whatsapp:hover {
+    transform: scale(1.1);
+}
+
 /* Mobile Responsive */
 @media (max-width: 768px) {
+.whatsapp {
+        width: 50px;
+        height: 50px;
+        right: 15px;
+        bottom: 15px;
+    }
 
+.whatsapp img {
+        width: 30px;
+        height: 30px;
+    }
 .menu-btn {
     display: block;
 }
